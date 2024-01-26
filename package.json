@@ -1,0 +1,20 @@
+{
+  "name": "javascript-basics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --quiet ./116-Currying.js"
+  },
+  "keywords": [],
+  "author": "Himanshu Bhandari (https://github.com/hdbhandari)",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  },
+  "nodemonConfig": {
+    "events": {
+      "start": "clear || cls"
+    }
+  }
+}

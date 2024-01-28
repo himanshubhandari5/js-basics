@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --quiet ./116-Currying.js"
+    "start": "nodemon --quiet ./118-Currying.js"
   },
   "keywords": [],
   "author": "Himanshu Bhandari (https://github.com/hdbhandari)",

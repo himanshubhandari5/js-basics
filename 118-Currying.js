@@ -22,13 +22,15 @@ console.log(alwaysMultiply5(3, 2)())
 console.log("---Scenario:3---")
 function outer() {
   console.log("outer function is called")
-
-  function inner() {
-    console.log("Inner function is called")
+  function inner(...args1) {
+    console.log("Inner function is called: ", args1.length)
+    function innerMost(...args2) {
+      console.log("Inner Most function is called with random nuber of variables: ", args2.length)
+    }
+    return innerMost
   }
-
   return inner
 }
 
-outer()
-outer()()
+outer()(2, 3)(4, 5, 6, 7)
+outer()(2, 3, 1)(4, 5)

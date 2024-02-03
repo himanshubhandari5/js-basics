@@ -9,7 +9,9 @@ const obj = {
   b: 20
 }
 
-setA()
+// setA()
+
 // const newContextForA = new setA()
 // console.log(newContextForA.a)
+
 // obj.objSetA()

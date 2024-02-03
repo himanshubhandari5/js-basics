@@ -20,4 +20,3 @@ const throttleFunction = function (callback, limit) {
 const throttle = throttleFunction(someHeavyOperation, 1000)
 
 window.addEventListener("resize", throttle)
-

@@ -13,10 +13,10 @@ const emp2 = {
 // Here we need to write our own bind method
 Function.prototype.myBind = function (...args1) {
   console.log("---These are bind args: ", ...args1)
-  const thisObj = this
+  const context = this
   return function (...args2) {
     console.log("---These are function args: ", ...args2)
-    thisObj.apply(args1[0], [...args1.slice(1), ...args2])
+    context.apply(args1[0], [...args1.slice(1), ...args2])
   }
 }
 

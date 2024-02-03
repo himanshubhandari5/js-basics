@@ -8,7 +8,8 @@ console.log(getFirstMsg())
 // Not allowed because first phase of Execution Cycle initialized these as 'undefined'
 // console.log(getSecondMsg())   // Not allowed
 // console.log(getThirdMsg())  // Not allowed
-// console.log(getFourthMsg())  // Not allowed
+// console.log(getFourthMsg())  // Not allowed because this is a functional expression and assigned 'undefined'
+console.log(getFourthMsg)
 // console.log(getFifthMsg())
 // console.log(getSixthMsg())
 
@@ -35,11 +36,3 @@ let getFifthMsg = function () {
 const getSixthMsg = function () {
   return "Hello from getSixthMsg()"
 }
-
-console.log("\n---General function calls---\n")
-console.log(getFirstMsg())
-console.log(getSecondMsg())
-console.log(getThirdMsg())
-console.log(getFourthMsg())
-console.log(getFifthMsg())
-console.log(getSixthMsg())

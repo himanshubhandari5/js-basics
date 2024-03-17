@@ -4,13 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --quiet ./103-GlobalScope.js"
+    "start": "nodemon --quiet ./123-ObjectMethods.js"
   },
   "keywords": [],
   "author": "Himanshu Bhandari (https://github.com/hdbhandari)",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^3.0.3"
+    "nodemon": "^3.1.0"
   },
   "nodemonConfig": {
     "events": {

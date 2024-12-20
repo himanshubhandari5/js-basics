@@ -9,7 +9,7 @@ const outest = () => {
     const b = 20
     return inner = () => {
       const c = 30
-      return a + b + c
+      return a + b + c // Note
     }
   }
 }
@@ -25,9 +25,9 @@ const outest1 = () => {
       const c = 30
       return a + b + c
     }
-    return inner1
+    return inner1  // Note
   }
-  return outer1
+  return outer1  // Note
 }
 
 const sum1 = outest1()()()

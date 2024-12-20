@@ -18,7 +18,8 @@ console.log('\nMerge both the objects with destructuring: ', obj4)
 
 // Object.assign(obj1, obj2): Merge 2 objects
 Object.assign(obj1, obj2)
-console.log('Everything from obj2 is copied into obj1, if common keys are there, it will override e.g. name', obj1)
+console.log('Everything from obj2 is copied into obj1, \
+  if common keys are there, it will override e.g. name', obj1)
 console.log('\nobj2 is untouched', obj2)
 
 // Object.preventExtensions(obj): Prevent Object from adding new keys, existing can be updated

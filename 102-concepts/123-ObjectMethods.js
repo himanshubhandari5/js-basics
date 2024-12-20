@@ -29,7 +29,12 @@ console.log('\ncalling method: ', obj.getName())
 console.log('calling method: ', obj.getSalary())
 
 // Object.fromEntries(arr): Array/Map into Object
-const arr = [['employee', 'john Doe'], ['salary', 120000], ['married', true], ['companies', ['X Inc.', 'Y Ltd.']]]
+const arr = [
+  ['employee', 'john Doe'],
+  ['salary', 120000],
+  ['married', true],
+  ['companies', ['X Inc.', 'Y Ltd.']]
+]
 console.log('\nArray to Object is: ', Object.fromEntries(arr))
 
 // Object into Array

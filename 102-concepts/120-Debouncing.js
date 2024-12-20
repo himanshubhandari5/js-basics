@@ -6,7 +6,7 @@ const searchSuggetions = function (searchTerm) {
 const debounceSearch = function (callback, delay) {
   let timer
   return function (event) {
-    // Setting the coorect 'this'
+    // Setting the correct 'this'
     let context = this
     // Clear the previous timer
     clearTimeout(timer)
